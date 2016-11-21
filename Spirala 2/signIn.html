@@ -1,0 +1,48 @@
+<div class = "ostatak">
+<div id = "fix"><p></p></div>
+<div class="test">
+
+  <div id = "infoSignIn">
+    <div id = "infoMogucnosti">
+      <p id = "infoPara">
+          Novi korisnik ?
+        </p>
+    </div>
+
+    <div id = "infoList">
+      <ul id = "infoLista">
+        <li class = "mogucnostiKorisnika">
+            Najnovije vijesti i recenzije
+        </li>
+        <li class = "mogucnostiKorisnika">
+            Mogucnost kreiranja liste igara koje igrate
+        </li>
+      </ul>
+    </div>
+    <div id = "signUpButtDiv">
+      <br>
+      <a id = "signUpButt" href = "#" onclick="ucitaj('signUp')">Create account </a>
+    </div>
+  </div>
+
+  <div id = "signInFormaDiv">
+    <form id = "signInForma" method = "POST" enctype="multipart/form-data" accept-charset = "utf-8" onsubmit="return validirajLogIn()">
+
+      <div = "signInRequestDiv">
+      <label id = "signInRequest">Login into youre account </label> <br> <br>
+      </div>
+      <label class = "signInInfo"> Email:</label>
+      <input id='emailSignIn' type = "email" name = "emailInput" onblur="upisi(this.id, this.value)"> <br>       <div id = "invalidEmail"></div>  <br>
+
+      <label class = "signInInfo">Password: </label>
+      <input id='passwordSignIn' type = "password" name = "passwordInput" onblur="upisi(this.id, this.value)"> <br> <div id = "invalidPassword"> </div> <br>
+      <div id = "signInButtonDiv">
+      <input type = "submit" name "signInButton"  value = "Sign in" >
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+<script type="text/javascript">
+  alert("hajde mrs");
+</script>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="GameStil.css">
+    <script type="text/javascript" src = "skripta.js"></script>
+  </head>
+
+  <body>
+
+  <div class = "container">
+
+      <div id = "header">
+          <div id= "logo">
+            <a id = "linkStranice" href ="#" onclick="ucitaj('gameShop.html')">
+              Alternate Reality</a>
+
+            <form class = "searchForm1" >
+             <input class="search" type="text" name="search" placeholder="Trazi...">
+            </form>
+
+            <div id = "loginNav">
+              <a class = "logSS" id = "loginLink" href ="#" onclick="ucitaj('signIn.html')"> Log in </a>
+              <a class = "logSS" id = "signUp"  href = "#" onclick="ucitaj('signUp.html')"> Sign up </a>
+            </div>
+
+                         <div class = "clearElement"> </div>
+          </div>
+           <div class="meni">
+
+             <div id = "navBar">
+               <ul id = "listaLinkova">
+                 <li class = "linkovi"><a id = "navLink"> Consoles </a> </li>
+                 <li class = "linkovi"><a id = "navLink"> Games </a></li>
+                 <li class = "linkovi"><a id = "navLink"> Accessories </a></li>
+                 <li class = "linkovi"><a id = "navLink" href ="About.html"> About </a></li>
+             </div>
+
+             <div class = "clearElement"> </div>
+           </div>
+           <div class = "clearElement"> </div>
+      </div>
+
+
+      <div class = "ostatak" id = "ostatak" onload = "ucitaj()">
+      <div id = "fix"><p></p></div>
+
+      <div id = "modal">
+        <img id = "uvecanaSlika" src = "">
+      </div>
+
+      <div id = "dobrodoslicaDiv">
+        <p id = "dobrodoslica"> Dobro došli !</p>
+        <!--<img id = "slikaDobrodoslice" src = "Slike/all for gaming.png">-->
+      </div>
+      <div id = "preporuke">
+
+        <div class = "preporukeIgara">
+          <p class = "opisPreporuke"> Preporučene konzole <p>
+            <div class = "slikaLijevoDiv">
+              <img id = "slikaLijevo" src = "Slike/Konzole/ps3 CoD.jpeg"
+              onclick="uvecaj(this.src)">
+            </div>
+
+            <div class = "ostaleSlike">
+              <div class = "prviRedCl">
+                <img class ="prviRedDesno" src = "Slike/Konzole/xbox halo5.jpg"
+                onclick="uvecaj(this.src)">
+                <img class ="prviRedLijevo" src = "Slike/Konzole/ps4 bundle.jpg"
+                onclick="uvecaj(this.src)">
+              </div>
+              <div class = "drugiRedCl">
+                <img class ="drugiRedLijevo" src = "Slike/Konzole/ps4 destiny.jpg"
+                onclick="uvecaj(this.src)">
+                <img class ="drugiRedDesno" src = "Slike/Konzole/wii-black4.jpg"
+                onclick="uvecaj(this.src)">
+              </div>
+            </div>
+        </div>
+
+          <div class = "preporukeIgara">
+            <p class = "opisPreporuke"> Preporučene Igre <p>
+              <div class = "slikaLijevoDiv">
+                <img id = "slikaLijevo" src = "Slike/Igre/Titanfall.jpg"
+                onclick="uvecaj(this.src)">
+              </div>
+
+              <div class = "ostaleSlike">
+                <div class = "prviRedCl">
+                  <img class ="prviRedDesno" src = "Slike/Igre/BF1.jpg"
+                  onclick="uvecaj(this.src)">
+                  <img class ="prviRedLijevo" src = "Slike/Igre/FFXV.jpg"
+                  onclick="uvecaj(this.src)">
+                </div>
+                <div class = "drugiRedCl">
+                  <img class ="drugiRedLijevo" src = "Slike/Igre/Gothic Armada.jpg"
+                  onclick="uvecaj(this.src)">
+                  <img class ="drugiRedDesno" src = "Slike/Igre/Driver San Francisco.jpg"
+                  onclick="uvecaj(this.src)">
+                </div>
+              </div>
+          </div>
+
+
+          <div class = "preporukeIgara">
+            <p class = "opisPreporuke"> Preporučeni dodaci <p>
+              <div class = "slikaLijevoDiv">
+                <img id = "slikaLijevo" src = "Slike/Dodaci/ocu.jpg"
+                onclick="uvecaj(this.src)">
+              </div>
+
+              <div class = "ostaleSlike">
+                <div class = "prviRedCl">
+                  <img class ="prviRedDesno" src = "Slike/Dodaci/razer tron.jpg"
+                  onclick="uvecaj(this.src)">
+                  <img class ="prviRedLijevo" src = "Slike/Dodaci/xo.jpg"
+                  onclick="uvecaj(this.src)">
+                </div>
+                <div class = "drugiRedCl">
+                  <img class = "drugiRedLijevo" src = "Slike/Dodaci/gears of war.png"
+                  onclick="uvecaj(this.src)">
+                  <img class = "drugiRedDesno" src = "Slike/Dodaci/ps4 camo controler.png"
+                  onclick="uvecaj(this.src)">
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <script type = "text/javascript" src = "skripta.js">
+
+  </script>
+  </body>
+
+
+</html>
