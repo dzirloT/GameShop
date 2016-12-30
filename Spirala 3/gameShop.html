@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="GameStil.css">
+    <script type="text/javascript" src = "skripta.js"></script>
+  </head>
+
+  <body>
+
+  <div class = "container">
+
+      <div id = "header">
+          <div id= "logo">
+            <a id = "linkStranice" href ="GameShop.html">
+              Alternate Reality</a>
+
+            <form class = "searchForm1" >
+             <input class="search" type="text" name="search" placeholder="Trazi...">
+            </form>
+
+            <div id = "loginNav">
+              <a class = "logSS" id = "loginLink" href ="signIn.html" onclick="ucitajN()"> Log in </a>
+              <a class = "logSS" id = "signUp"  href = "signUp.html"> Sign up </a>
+            </div>
+
+                         <div class = "clearElement"> </div>
+          </div>
+           <div class="meni">
+
+             <div id = "navBar">
+               <ul id = "listaLinkova">
+                 <li class = "linkovi"><a id = "navLink"> Consoles </a> </li>
+                 <li class = "linkovi"><a id = "navLink" href="games.html"> Games </a></li>
+                 <li class = "linkovi"><a id = "navLink"> Accessories </a></li>
+                 <li class = "linkovi"><a id = "navLink" href =""> About </a></li>
+             </div>
+             <div class = "clearElement"> </div>
+           </div>
+           <div class = "clearElement"> </div>
+      </div>
+
+      <div class = "ostatak">
+      <div id = "fix"><p></p></div>
+
+      <div id = "modal">
+        <img id = "uvecanaSlika" src = "">
+      </div>
+
+      <div id = "dobrodoslicaDiv">
+        <p id = "dobrodoslica"> Dobro došli !</p>
+      </div>
+      <div id = "preporuke">
+
+        <div class = "preporukeIgara">
+          <p class = "opisPreporuke"> Preporučene konzole </p>
+          <div id = "preporukeKonzolaDiv"></div>
+          <script type="text/javascript">ucitajSlikeKonzola();</script>
+        </div>
+
+
+          <div class = "preporukeIgara">
+            <p class = "opisPreporuke"> Preporučene Igre </p>
+            <div id = "preporukeIgaraDiv"></div>
+            <script type="text/javascript">ucitajSlikeIgara(); </script>
+          </div>
+
+          <div class = "preporukeIgara">
+            <p class = "opisPreporuke"> Preporučeni dodaci </p>
+            <div id = "preporukeDodatakaDiv"></div>
+            <script type="text/javascript">ucitajSlikeDodataka(); </script>
+          </div>
+        </div>
+
+          </div>
+      </div>
+  </body>
+
+</html>

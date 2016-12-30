@@ -1,0 +1,590 @@
+html {
+    margin: 0;
+    margin-top: -16px;
+    width:100%;
+    min-width: 300px;
+}
+body  {
+  margin:0;
+  width: 100%;
+
+  background: #164264;
+  background: -moz-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #164264),
+  color-stop(50%, #7e95a5), color-stop(100%, #164264));
+
+  background: -webkit-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: -o-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: -ms-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: linear-gradient(to right, #164264 0%, #7e95a5 50%, #164264 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#164264',
+  endColorstr='#164264', GradientType=1 );
+}
+.container {
+  box-sizing: border-box;
+  width:100%;
+  z-index: 1;
+}
+  /* !!!!!!! MAIN PAGE !!!!!!! */
+#header {
+  box-sizing: border-box;
+  border: 3px inset white;
+  padding:20px;
+  border-radius: 5px;
+  padding-top:20px;
+  padding-left: 13%;
+  background: rgba(1, 1, 1, 0.7);
+  background-image: url('Slike/gaming logz.jpg');
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-color: #191919;*/
+  position: fixed;
+  width:100%;
+  height:245px;
+  clear:both;
+  display: block;
+  overflow: auto;
+}
+#logo {
+  box-sizing: border-box;
+  display:inline-block;
+  width :100%;
+  height: 90px;
+}
+#linkStranice {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  padding-bottom:8px;
+  width: 40%;
+  font-size: 32px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-decoration:none;
+  color: red;
+  border-radius: 15px;
+  display: inline;
+}
+#linkStranice:Hover {
+  background-color: lightgrey;
+}
+.searchForm1 {
+  width: 50%;
+  display: inline ;
+}
+.search {
+    width: 60%;
+    margin:17px;
+    margin-left: 0;
+    box-sizing: border-box;
+    border: 5px solid #DB2A27;
+    border-radius: 10px;
+    font-size: 16px;
+    font-style: italic;
+    color:black;
+    background-color: white;
+    background-image: url('Slike/searchicon.png');
+    background-size: 25px 25px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    -webkit-input-placeholder-color:#DB2A27;
+    transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -moz-transition: width 0.4s ease-in-out;
+}
+#navBar {
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  width:100%;
+  display:inline-block;;
+}
+#navBar li{
+  display: inline-block;
+  margin-bottom: 1%;
+}
+#listaLinkova   {
+  margin:0;
+}
+#navLink    {
+  text-decoration: none;
+  color: red;
+}
+.linkovi  {
+  box-sizing: border-box;
+  display:inline;
+  border-radius: 15px;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  padding: 10px 15px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.linkovi:first-child {
+  border-left: none;
+}
+.linkovi:last-child {
+  border-right: none;
+}
+.linkovi:hover {
+  background-color: lightgrey;
+}
+.searchForm1  {
+  display: inline-block;
+
+}
+#loginNav {
+  text-align: center;
+  width:100%;
+  display: inline-block;;
+  color: white;
+  box-sizing: border-box;
+  padding-right: 75px;
+}
+.logSS   {
+
+  text-decoration:none;
+  color:white;
+  padding: 10px 40px;
+}
+#loginLink {
+  border-radius: 50px;
+  box-sizing: border-box;
+  background-image: url('Slike/login-Icon.png');
+  background-size:30px 30px;
+  background-position: left;
+  text-align: left;
+  background-repeat: no-repeat;
+  display:inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#loginLink:hover {
+  box-sizing:border-box;
+  background-color: red;
+  border-radius: 50px;
+}
+#signUp   {
+  border-radius: 50px;
+  display:inline-block;
+  box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#signUp:hover {
+  box-sizing:content-box;
+  background-color: red;
+  border-radius: 50px;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  width: 40%;
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  width: 40%;
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  width: 40%;
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  width: 40%;
+  color: black;
+}
+.clearElement {
+  width: 100%;
+  display:inline-block;
+  clear:both;
+}
+.meni   {
+  margin:0;
+  width: 90%;
+  clear: both;
+}
+#fix  {
+  height:245px;
+  background-color: black;
+}
+
+#modal {
+  width:100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100000;
+  display: none;
+
+  position: fixed ;
+  text-align: center;
+}
+#uvecanaSlika  {
+
+  border: 3px solid red;
+  max-width: 75%;
+  max-height: 75%;
+}
+
+
+#preporuke {
+  box-sizing: border-box;
+  border: 1px solid ;
+  text-align: center;
+  height:auto;
+  width: 100%;
+  background: #164264;
+  background: -moz-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #164264),
+  color-stop(50%, #7e95a5), color-stop(100%, #164264));
+
+  background: -webkit-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: -o-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: -ms-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+  background: linear-gradient(to right, #164264 0%, #7e95a5 50%, #164264 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#164264',
+  endColorstr='#164264', GradientType=1 );
+}
+#dobrodoslicaDiv  {
+  text-align: center;
+  background-color:#466368  ;
+  border-top: 2px double #6B6060;
+  border-bottom: 2px double #6B6060;
+  border-radius: 15%;
+}
+#dobrodoslica   {
+  width:100%;
+  margin:0px;
+  color: white;
+  padding: 5px;
+  font-size: 32px;
+}
+.opisPreporuke  {
+  color:white;
+  font-size: 32px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: inline-block;
+  width: 30%;
+}
+.preporukeIgara  {
+  overflow: auto;
+  text-align:center;
+  display: inline-block;;
+  width: 80%;
+}
+.slikaLijevoDiv  {
+  width:30%;
+
+  display: inline;
+  float: left;
+}
+#slikaLijevo  {
+
+  margin:5px;
+  display: inline;
+  width: 100%;
+  height: 600px;
+}
+.ostaleSlike  {
+  display:inline-block;
+  width: 65%;
+  margin-top:10px;
+}
+.prviRedLijevo  {
+
+  width:45%;
+  height:250px;
+  float: right;
+  display: inline-block;
+  margin: 5px;
+}
+.prviRedDesno  {
+
+  width:45%;
+  height:250px;
+  float: right;
+  clear:right;
+  display: inline;
+  margin:5px;
+}
+.drugiRedLijevo {
+  width:45%;
+  height:250px;
+  float: right;
+  clear:right;
+  display: inline;
+  margin:5px;
+  margin-top:75px;
+}
+.drugiRedDesno  {
+  width:45%;
+  height:250px;
+  float: right;
+  display: inline-block;
+  margin:5px;
+    margin-top:75px;
+}
+#slikaLijevo:hover {
+  border: 5px solid red;
+}
+.prviRedDesno:hover {
+  border: 5px solid red;
+}
+.prviRedLijevo:hover {
+  border: 5px solid red;
+}
+.drugiRedDesno:hover {
+  border: 5px solid red;
+}
+.drugiRedLijevo:hover {
+  border: 5px solid red;
+}
+
+
+
+
+
+/* SIGN UP PAGE */
+#info {
+box-sizing: border-box;
+border: 1px solid ;
+height:auto;
+width: 100%;
+padding-top: 15px;
+background: #164264;
+background: -moz-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #164264),
+color-stop(50%, #7e95a5), color-stop(100%, #164264));
+
+background: -webkit-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+background: -o-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+background: -ms-linear-gradient(left, #164264 0%, #7e95a5 50%, #164264 100%);
+background: linear-gradient(to right, #164264 0%, #7e95a5 50%, #164264 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#164264',
+endColorstr='#164264', GradientType=1 );
+}
+
+#infoMogucnosti    {
+  width: 100%;
+}
+#infoPara   {
+  color: lightgrey;
+  font-size: 25px;
+  padding-left: 15px;
+  display:inline;
+}
+
+#potrebno    {
+  display:inline;
+  color: lightgrey;
+  font-size: 25px;
+}
+#zvijezda   {
+  display:inline;
+  text-align: right;
+  color: lightgrey;
+  font-size: 25px;
+  margin-left: 30%;
+}
+
+#infoLista  {
+  font-size: 18px;
+  color: white;
+  margin-left: 25px;
+}
+
+#accountCreation   {
+  display:inline-block;;
+  text-align: center;
+  width: 35%;
+  height:570px;
+  margin-left:20px;
+}
+.podaciKorisnika    {
+  display: inline;
+  color:white;
+  font-size: 20px;
+  padding-left:40px;
+}
+#createAccP   {
+  font-size: 25px;
+  font-weight: bold;
+}
+#signUpForma input[type=text],
+input[type=password], input[type=email]   {
+  float:right;
+  display:inline;
+  width:180px;
+  margin-left: 100px;
+}
+#signUpForma input[name=displayName]    {
+  margin-right: 12px;
+}
+.podaciKorisnikaZ    {
+  display:inline;
+  float:right;
+  color:red;
+}
+
+#signUpForma input[type=submit], input[type=reset]    {
+  width:100px;
+  margin: 0px 20px;
+}
+#welcomeImageDiv   {
+  text-align: center;
+  width: 45%;
+  height: 500px;
+  display:inline-block;
+}
+#communityWelcome    {
+  font-size: 22px;
+  font-weight: bold;
+  color:white;
+  display: inline;
+  margin-left:150px;
+}
+#welcomeImage  {
+  box-sizing: content-box;
+  padding-left:150px;
+  height: 90%;
+  width:100%;
+}
+.test{
+  width: 90%;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+#infoSignIn     {
+  text-align: left;
+  display: inline-block;
+  width: 45%;
+  height: 180px;
+  border: 15px outset white;
+  margin-right: 20px;
+  overflow: auto;
+}
+.infoSignIn li{
+
+}
+#signUpButtDiv    {
+  text-align: right;
+}
+#signUpButt      {
+  font-weight: bold;
+  box-sizing: border-box;
+  background-color: purple;
+  border:1px solid white;
+  padding:15px;
+  color: white;
+  text-decoration: none;
+  margin:20px;
+}
+
+#signInFormaDiv      {
+
+  /*margin:35px;*/
+  border: 15px outset white;
+  text-align: center;
+  width:45%;
+  display: inline-block;
+  min-width: auto;
+  height:180px;
+  overflow: auto;
+}
+.signInInfo      {
+  font-size: 20px;
+  display: inline;
+  color:white;
+}
+
+input[name=emailInput],
+input[name=passwordInput]    {
+  display:inline;
+  margin:2px;
+  margin-right: 15px;
+}
+
+#signInButtonDiv > input[type=submit] {
+  color:white;
+  font-weight: bold;
+  margin-right: 20px;
+  padding:10px 20px;
+  background-color: purple;
+
+}
+#signInButtonDiv {
+  text-align: right;
+}
+#signInRequest {
+  color:white;
+  font-size: 22px;
+
+}
+#signInRequest  {
+  color:red;
+  font-size: 24px;
+}
+
+#ostatakIgre  {
+  text-align: center;
+}
+.igra {
+
+  text-align: center;
+  width: 80%;
+  margin: auto ;
+  height: auto;
+  padding:2%;
+  border: 1px solid white;
+}
+
+.slikaIgre  {
+  border:3px solid white;
+  border-radius: 30px;
+  height: auto;
+  max-height: 425px;
+  width: 25%;
+  padding:auto ;
+  display: inline;
+}
+.opisIgara  {
+  color:white;
+  width: 45%;
+  height:auto;
+
+  display: inline-block;
+}
+.naslovIgre {
+  color:white;
+}
+.opisIgreL {
+  color: white;
+}
+.opisIgre {
+  color:white;
+}
+.igreDiv  {
+  display: inline-block;
+}
+.adminFormaDiv  {
+  width: 10%;
+  margin:auto;
+  padding: 30px;
+  background: white;
+  box-sizing: border-box;
+  height: 100px;
+  text-align: center;
+
+}
+#preusmjeriNaDodavanjeIgre  {
+  color: black;
+  padding: 60px; 
+  box-sizing: border-box;
+  text-decoration: none;
+}

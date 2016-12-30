@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<igre>
+
+    <igra>
+      <slikaIgre>Slike/Igre/BF1</slikaIgre>
+      <naslovIgre> Battlefied 1 </naslovIgre>
+      <opisIgre>
+        Fight your way through epic battles ranging from tight urban combat in a besieged French
+        city to the heavily defended mountain forts in the Italian Alps, or frantic combats in the deserts of Arabia.
+        Discover a world at war through an adventure-filled campaign, or join in epic multiplayer battles
+        with up to 64 players, and adapt your tactics to the earth-shattering destruction and dynamic weather.
+        Fight as infantry, lead horse charges or take control of amazing vehicles on land, air and sea,
+        from tanks and biplanes to the gigantic Behemoths – some of the largest vehicles in Battlefield history.
+      </opisIgre>
+      <cijenaIgre>60KM</cijenaIgre>
+    </igra>
+
+    <igra>
+      <slikaIgre>Slike/Igre/TitanFall</slikaIgre>
+      <naslovIgre>Titanfall 2</naslovIgre>
+      <opisIgre>
+        Bigger weapons make better friends in Titanfall 2, the epic follow-up to the genre-redefining Titanfall.
+        Respawn Entertainment gives you the most advanced titan technology in its new, expansive single player
+        campaign and multiplayer experience. Combine and conquer with new titans and pilots, deadlier weapons, and
+        feature-rich customization and progression system that helps you and your titan flow as one unstoppable killing
+        force. Unite and destroy. Become One.
+      </opisIgre>
+      <cijenaIgre>60KM</cijenaIgre>
+    </igra>
+
+    <igra>
+        <slikaIgre>Slike/Igre/FFXV</slikaIgre>
+        <naslovIgre> Fintal fantasy XV </naslovIgre>
+        <opisIgre>
+          Enter the world of FINAL FANTASY XV, and experience epic action-packed battles along your journey of discovery.
+          You are Noctis, the Crown Prince of the Kingdom of Lucis, and your quest is to reclaim your homeland from
+          the clutches of the imperial army.
+
+          Joined by your closest friends, you will take the wheel and experience a voyage like no
+          other, travelling through the breathtaking world of Eos encountering larger-than-life
+           beasts and unforgiving enemies. You will learn to master the skills of weaponry
+           and magic, channelling the power of your ancestors allowing you to effortlessly warp through the
+           air in thrilling combat.
+        </opisIgre>
+        <cijenaIgre>60KM</cijenaIgre>
+      </igra>
+
+      <igra>
+          <slikaIgre>Slike/Igre/GothicArmada</slikaIgre>
+          <naslovIgre>Gothic Armada  </naslovIgre>
+          <opisIgre>
+            Battlefleet Gothic: Armada is the RTS videogame adaptation of Games Workshop’s classic tabletop
+            game, pitting the Chaos, Imperium, Eldar, and Orks against each other in visceral space-battles.
+
+            Developed with Unreal Engine 4, Battlefleet Gothic: Armada offers deep management of every ship
+            composing the player’s fleet, both during and between battles. From the fastest frigates to the
+            gigantic, miles-long battleships, the player will customize all aspects of his
+            ships: weaponry, defense and support sub-systems, but also crew, captains, and more... each
+            customization affecting the very performances of the ship and the special abilities available during
+            battle. From battle to battle, the admirals and crew of surviving ships will gain
+            experience and promotions, improving the battle-readiness of the ships for future, bigger and more
+            dangerous battles.
+          </opisIgre>
+          <cijenaIgre>60KM</cijenaIgre>
+        </igra>
+
+</igre>
