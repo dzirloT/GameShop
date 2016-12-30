@@ -22,3 +22,20 @@ V Lista fajlova u formatu NAZIVFAJLA - Opis u vidu jedne rečenice šta se u faj
 
 
 style.css i skripta.js - fajlovi u kojima se nalaze sve trazene funkcionalnosti
+
+
+SPIRALA III 
+
+I Šta je urađeno ? 
+Deserijalizacija podataka (ućitavanje slika na glavnoj stranici i video igara na stranici games.html), te unos, odnosno serijalizazcija, sign up podataka korisnika. 
+
+III Šta nije urađeno ? 
+Sve ostalo 
+
+IV Bug-ovi koje ste primijetili ali ne znate rješenje
+
+V Lista fajlova u formatu NAZIVFAJLA - Opis u vidu jedne rečenice šta se u fajlu nalazi Novi fajlovi:
+
+
+style.css i skripta.js - fajlovi u kojima se nalaze sve trazene funkcionalnosti
+.php fajlovi - koriste se za dodavanje određenog html koda 
