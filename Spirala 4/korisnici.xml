@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<korisnici>
+  
+<korisnik>
+  <email>irfan@live.com</email>
+  <username></username>
+  <ime></ime>
+  <prezime></prezime>
+  <password>Irfan12345</password>
+
+</korisnik>
+
+
+
+<korisnik>
+  <email>timur@live.com</email>
+  <username>timur</username>
+  <ime>Timur</ime><prezime>Dzirlo</prezime>
+  <password>b4af804009cb036a4ccdc33431ef9ac9</password>
+</korisnik>
+
+<korisnik>
+  <email>dario@live.com</email>
+  <username>dario</username>
+  <ime>Dario</ime><prezime>Pejcinovic</prezime>
+  <password>4839acd07bce41bd62cf869213c7a5f1</password>
+</korisnik>
+
+<korisnik>
+  <email>dario@live.com</email>
+<username>dario</username>
+<ime>Dario</ime>
+<prezime>Pejcinovic</prezime>
+<password>4839acd07bce41bd62cf869213c7a5f1</password>
+</korisnik>
+
+<korisnik>
+  <email>dario@live.com</email>
+  <username>Dario</username>
+  <ime>Dario</ime>
+  <prezime>Dario</prezime>
+  <password>4839acd07bce41bd62cf869213c7a5f1</password>
+</korisnik>
+
+<korisnik>
+<email>ado@live.com</email>
+<username>ado</username>
+<ime>adic</ime>
+<prezime>ado</prezime>
+<password>2072cbc7f2ed127ef972a8b93f248e6c</password>
+</korisnik>
+
+</korisnici>

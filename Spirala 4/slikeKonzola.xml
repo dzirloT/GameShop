@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slike>
+
+    <slika>
+        <slikaLijevo>Slike/Konzole/ps3CoD</slikaLijevo>
+        <prviRedDesno>Slike/Konzole/xboxhalo5</prviRedDesno>
+        <prviRedLijevo>Slike/Konzole/ps4bundle</prviRedLijevo>
+        <drugiRedDesno>Slike/Konzole/wii-black4</drugiRedDesno>
+        <drugiRedLijevo>Slike/Konzole/ps4destiny</drugiRedLijevo>
+    </slika>
+
+    <slika>
+          <slikaLijevo>Slike/Igre/Titanfall</slikaLijevo>
+          <prviRedDesno>Slike/Igre/BF1</prviRedDesno>
+          <prviRedLijevo>Slike/Igre/FFXV</prviRedLijevo>
+          <drugiRedDesno>Slike/Igre/DriverSanFrancisco</drugiRedDesno>
+          <drugiRedLijevo>Slike/Igre/GothicArmada</drugiRedLijevo>
+    </slika>
+
+    <slika>
+          <slikaLijevo>Slike/Dodaci/ocu</slikaLijevo>
+          <prviRedDesno>Slike/Dodaci/razertron</prviRedDesno>
+          <prviRedLijevo>Slike/Dodaci/xo</prviRedLijevo>
+          <drugiRedDesno>Slike/Dodaci/ps4camocontroler</drugiRedDesno>
+          <drugiRedLijevo>Slike/Dodaci/gearsofwar</drugiRedLijevo>
+    </slika>
+
+</slike>

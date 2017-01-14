@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dodaci>
+
+  <dodatak>
+      <slikaDodatka>Slike/dostupniDodaci/camoControlerPS4</slikaDodatka>
+      <naslovDodatka>Camouflage PS4 Controller</naslovDodatka>
+      <opisDodatka>The DUALSHOCK®4 wireless controller defines the new generation of play, combining
+        revolutionary features with an intuitive design and precise controls.The new models feature a stylish
+        matte finish, show your light bar from above and allow you to control your PS4™ via USB cable as well as
+        through Bluetooth®.You can also use your controller with compatible applications on
+        Windows®PC/Mac – connect via USB cable or with Bluetooth® using the DUALSHOCK®4 USB wireless adaptor*1.
+      </opisDodatka>
+
+      <ps4>true</ps4>
+      <xboxone>0</xboxone>
+      <wiiu>0</wiiu>
+
+      <cijenaDodatka>50KM</cijenaDodatka>
+  </dodatak>
+
+  <dodatak>
+      <slikaDodatka>Slike/dostupniDodaci/controlerPS4</slikaDodatka>
+      <naslovDodatka>PS4 Contoller</naslovDodatka>
+      <opisDodatka></opisDodatka>
+
+      <ps4>true</ps4>
+      <xboxone>0</xboxone>
+      <wiiu>0</wiiu>
+
+      <cijenaDodatka>40KM</cijenaDodatka>
+  </dodatak>
+
+  <dodatak>
+      <slikaDodatka>Slike/dostupniDodaci/controlerWiiU</slikaDodatka>
+      <naslovDodatka>Wii U Controller</naslovDodatka>
+      <opisDodatka>Super Smash Bros Peach Gamecube Controller For Wii U is a Gamecube inspired Classic Controller Pro
+        for the Wii U.Works perfectly with Super Smash Bros Wii U.Compatible with all Wii/Wii U games that support
+        Classic Controller and Classic Contorller Pro, as well as most Nintendo Virtual Console gamesReplica
+        GameCube Controller – Preferred Fight pad for the Super Smash Bros. fan
+      </opisDodatka>
+
+      <ps4>0</ps4>
+      <xboxone>0</xboxone>
+      <wiiu>true</wiiu>
+
+      <cijenaDodatka>40KM</cijenaDodatka>
+  </dodatak>
+
+  <dodatak>
+      <slikaDodatka>Slike/dostupniDodaci/controlerXBX</slikaDodatka>
+      <naslovDodatka>XBOX One Controller</naslovDodatka>
+      <opisDodatka>Experience the enhanced comfort and feel of the new Xbox Wireless Controller, featuring
+         a sleek, streamlined design and textured grip. Enjoy custom button mapping and plug in any compatible headset
+          into the standard 3.5mm stereo headset jack. And with Bluetooth® technology, play your favorite games on
+           Windows 10 PCs, tablets, and phones.
+      </opisDodatka>
+
+      <ps4>0</ps4>
+      <xboxone>true</xboxone>
+      <wiiu>0</wiiu>
+
+      <cijenaDodatka>40KM</cijenaDodatka>
+  </dodatak>
+
+  <dodatak>
+      <slikaDodatka>Slike/dostupniDodaci/greenControlerXBX</slikaDodatka>
+      <naslovDodatka>Green XBOX One Controller</naslovDodatka>
+      <opisDodatka>Experience the enhanced comfort and feel of the new Xbox Wireless Controller,
+        featuring a sleek, military green design with orange accents, textured grip, and Bluetooth® technology
+        for gaming on Windows 10 PCs and tablets.The best controller just got even better.
+      </opisDodatka>
+
+      <ps4>0</ps4>
+      <xboxone>true</xboxone>
+      <wiiu>0</wiiu>
+
+      <cijenaDodatka>50KM</cijenaDodatka>
+  </dodatak>
+
+
+</dodaci>

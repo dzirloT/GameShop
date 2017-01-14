@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konzole>
+
+    <konzola>
+      <slikaKonzole>Slike/dostupneKonzole/ps4Console</slikaKonzole>
+      <naslovKonzole>PS4</naslovKonzole>
+      <opisKonzole>With its sleeker and lighter model, the new PlayStation 4 console
+        packs all the amazing features gamers have come to expect from PlayStation 4.
+        PS4 is a platform to stimulate and fuel future evolution, hosting an amazing
+        line-up of titles including The Last Guardian,
+        Horizon: Zero Dawn and Watch_Dogs 2</opisKonzole>
+      <cijenaKonzole>600KM</cijenaKonzole>
+    </konzola>
+
+    <konzola>
+      <slikaKonzole>Slike/dostupneKonzole/wiiU</slikaKonzole>
+      <naslovKonzole>Wii U</naslovKonzole>
+      <opisKonzole>Boasting HD Graphics and an innovative controller, the Nintendo Wii U
+        is about to change the way you play games</opisKonzole>
+      <cijenaKonzole>450KM</cijenaKonzole>
+    </konzola>
+
+    <konzola>
+      <slikaKonzole>Slike/dostupneKonzole/xboxOne</slikaKonzole>
+      <naslovKonzole>Xbox ONE</naslovKonzole>
+      <opisKonzole>Play over 100 console exclusives and a growing library of Xbox 360 games on Xbox One.
+        Experience blockbusters like Gears of War 4, Halo Wars 2, Battlefield 1, and
+        FIFA 17 with friends on Xbox Live, the most advanced multiplayer network.
+        Suspend and resume your game whenever you want—or just pick up where you left off
+        on another Xbox One or Windows 10 PC with Xbox Play Anywhere titles.
+        Enjoy your favorite apps like BBC iPlayer, Netflix, Sky Go, and Skype.
+        Then stream video on Netflix and Amazon Video, and watch Blu-ray™ movies.
+        With all the biggest blockbusters this year, everything you loved about Xbox 360
+        is even better on Xbox One. </opisKonzole>
+      <cijenaKonzole>600KM</cijenaKonzole>
+    </konzola>
+
+</konzole>
